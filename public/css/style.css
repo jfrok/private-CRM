@@ -1,0 +1,723 @@
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+/* label color */
+label {
+    color: #000 !important;
+}
+
+/* label focus color */
+input:focus + label {
+    color: #000 !important;
+}
+
+/* Bold for CKEditor */
+strong {
+    font-weight: bold !important;
+}
+
+.crossed-text {
+    text-decoration: line-through !important;
+}
+
+.hoursModal .modal {
+    height: 75% !important;
+    width: 70%; !important;
+}
+
+.todotable {
+    border-collapse: collapse;
+}
+
+.todotable td {
+    border: none !important;
+}
+
+body {
+    overflow: auto !important
+}
+
+/* Bullet list styling for CKEditor */
+.wiki ul,
+.wiki ul li {
+    list-style-type: disc !important;
+}
+
+.wiki ul {
+    padding-left: 40px;
+}
+
+.ck.ck-content ul,
+.ck.ck-content ul li {
+    list-style-type: disc !important;
+}
+
+.ck.ck-content ul {
+    padding-left: 40px;
+}
+td {
+    padding: 15px;
+}
+
+.statusHolder, .projectHolder, .dateHolder,
+.fromTimeHolder, .toTimeHolder, .prijsHolder {
+    padding: 5px !important;
+}
+
+.projectHolder {
+    width: 50% !important;
+}
+
+#customProjectId {
+    box-sizing: border-box !important;
+}
+
+.fc-scrollgrid {
+    border: none !important;
+}
+
+.fc-scrollgrid td:last-of-type {
+    border-right: none !important;
+}
+
+.fc-timegrid-slot {
+    border-right: none !important;
+}
+
+.fc-toolbar-title {
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+body {
+    background-color: #F1F5F7 !important;
+}
+
+.drop-sh {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
+}
+
+.card {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
+}
+
+.txt-light {
+    color: #636E75 !important;
+}
+
+.txt-dark {
+    color: #252B3B !important;
+}
+
+.bg-dark {
+    background-color: #252B3B !important;
+}
+
+.nav-dark {
+    background-color: #252B3B !important;
+}
+
+.secondary {
+    background-color: #252B3B !important;
+}
+
+.darken-3 {
+    background-color: #252B3B !important;
+}
+
+.bg-light {
+    background-color: #F1F5F7 !important;
+}
+
+table.striped > tbody > tr:nth-child(odd) {
+    background-color: #F1F5F7;
+}
+
+.modal-footer {
+    background-color: #252B3B !important;
+}
+
+.collection {
+    border: none !important;
+}
+
+/* label underline focus color */
+input:focus {
+    border-bottom: 1px solid #000 !important;
+    box-shadow: 0 1px 0 0 #000 !important;
+}
+
+/* valid color */
+input.valid {
+    border-bottom: 1px solid #000 !important;
+    box-shadow: 0 1px 0 0 #000 !important;
+}
+
+/* invalid color */
+input.invalid {
+    border-bottom: 1px solid #000 !important;
+    box-shadow: 0 1px 0 0 #000 !important;
+}
+
+/* icon prefix focus color */
+.prefix.active {
+    color: #000 !important;
+}
+
+input {
+    background-color: #f3f4f4 !important;
+}
+
+[type="checkbox"].filled-in:checked + span:not(.lever):after {
+    border: 2px solid #FA4D09 !important;
+    background-color: #FA4D09 !important;
+}
+
+[type="checkbox"].filled-in:disabled + span:not(.lever):after {
+    border: 2px solid #757575 !important;
+    background-color: #757575 !important;
+}
+
+.orange {
+    background-color: #FA4D09 !important;
+}
+
+.btn, .btn-large, .btn-small, .btn-flat, .btn-floating {
+    text-transform: none;
+    box-shadow: none !important
+}
+
+.orange-text {
+    color: #FA4D09 !important;
+}
+
+.displayNone {
+    display: none;
+}
+
+.blue {
+    background-color: #260089 !important;
+}
+
+.blue-text {
+    color: #260089 !important;
+}
+
+.ml-5 {
+    margin-left: 5px !important;
+}
+
+.ml-10 {
+    margin-left: 10px !important;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.ml-30 {
+    margin-left: 30px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-25 {
+    margin-top: 25px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mb-5 {
+    margin-bottom: 10px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+
+.font-8 {
+    font-size: 8px !important;
+}
+
+.font-9 {
+    font-size: 9px !important;
+}
+
+.font-10 {
+    font-size: 10px !important;
+}
+
+.font-11 {
+    font-size: 11px !important;
+}
+
+.font-12 {
+    font-size: 12px !important;
+}
+
+.font-13 {
+    font-size: 13px !important;
+}
+
+.font-14 {
+    font-size: 14px !important;
+}
+
+.font-15 {
+    font-size: 15px !important;
+}
+
+.font-16 {
+    font-size: 16px !important;
+}
+
+.font-17 {
+    font-size: 17px !important;
+}
+
+.font-18 {
+    font-size: 18px !important;
+}
+
+.font-19 {
+    font-size: 19px !important;
+}
+
+.font-20 {
+    font-size: 20px !important;
+}
+
+.font-21 {
+    font-size: 21px !important;
+}
+
+.font-22 {
+    font-size: 22px !important;
+}
+
+.font-23 {
+    font-size: 23px !important;
+}
+
+.font-24 {
+    font-size: 24px !important;
+}
+
+.font-25 {
+    font-size: 25px !important;
+}
+
+.font-26 {
+    font-size: 26px !important;
+}
+
+.font-27 {
+    font-size: 27px !important;
+}
+
+.font-28 {
+    font-size: 28px !important;
+}
+
+.font-29 {
+    font-size: 29px !important;
+}
+
+.font-30 {
+    font-size: 30px !important;
+}
+
+.font-31 {
+    font-size: 31px !important;
+}
+
+.font-32 {
+    font-size: 32px !important;
+}
+
+#unlocked {
+    display: none;
+}
+
+.dropdown-content li > a, .dropdown-content li > span {
+    color: black !important;
+}
+
+#loginButton {
+    transition: 200ms;
+}
+
+.sideNav {
+    position: fixed;
+    width: 70px;
+    padding-top: 15px;
+    height: 100%;
+    padding-left: 13px;
+    transition: 200ms;
+    z-index: 10;
+}
+
+.sideNav:hover {
+    width: 300px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.swal2-container .select-wrapper {
+    display: none !important;
+}
+
+.sideNav a {
+    color: white !important;
+}
+
+.sideNav a i {
+    font-size: 40px;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#logoutButton {
+    position: fixed;
+    bottom: 10px;
+}
+
+.menuHolder {
+    height: 50px;
+}
+
+.navText {
+    display: none;
+    position: fixed;
+    margin-left: 20px;
+    padding-top: 10px !important;
+}
+
+.menuHolder .bi {
+    font-size: 25px;
+}
+
+.btn-floating .bi {
+    font-size: 17px;
+}
+
+#alertIcon {
+    position: absolute;;
+    right: 10px;
+    font-size: 40px;
+    margin-right: 0px;
+    cursor: pointer;
+    top: 5px;
+}
+
+#userIcon {
+    position: absolute;
+    right: 60px;
+    font-size: 40px;
+    margin-right: 0px;
+    cursor: pointer;
+    transition: 200ms;
+    top: 5px;
+}
+
+#searchIcon {
+    position: absolute;;
+    right: 110px;
+    font-size: 40px;
+    margin-right: 0px;
+    cursor: pointer;
+    transition: 200ms;
+    top: 5px;
+}
+
+#hamburgerMenu {
+    position: fixed;
+    top: 7px;
+    display: none;
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+.mainClassDesktop {
+    margin-left: 80px !important;
+    margin-right: 10px !important;
+}
+
+.mainClassMobile {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.addButton {
+    margin-left: 20px;
+    margin-top: 6px;
+}
+
+.roundedModal {
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.modal-content {
+    background-color: white !important;
+}
+
+.modal-footer a {
+    color: white !important;
+}
+
+.select2-results__options {
+    z-index: 99;
+    overflow: visible;
+}
+
+.modal { max-height: 120%; overflow: visible}
+
+.icons40 {
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+.hiddenCol {
+    display: none;
+}
+
+.hiddenClass {
+    display: none;
+}
+
+.spacer {
+    margin: 10px !important;
+}
+
+.swal2-select {
+    width: 85% !important;
+}
+
+.grey {
+    background-color: #f0f0f0 !important;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.secondary {
+    background: #424242 !important;
+}
+
+td {
+    border-radius: 0px !important;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.subtitle {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.hidden {
+    display: none;
+}
+
+.customerSwitch {
+    padding-top: 30px;
+}
+
+.actionButton {
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.actionButton:hover {
+    filter: brightness(0.85);
+}
+
+.fullWidth {
+    width: 100% !important;
+}
+
+.tableLink {
+    color: #260089;
+    text-decoration: underline;
+    text-decoration-color: #FA4D09;
+}
+
+.gamesTop {
+    height: 250px;
+    color: white;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.heading {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.biggerIcon {
+    font-size: 40px;
+}
+
+.tinyUser {
+    width: 100%;
+    height: auto;
+}
+
+.fc-center h2 {
+    font-size: 20px;
+}
+
+@keyframes fireworks {
+    0% {
+        color: #ff7167;
+    }
+    25% {
+        color: #5effc8;
+    }
+    50% {
+        color: #ffe74b;
+    }
+    100% {
+        color: #eb00bc;
+    }
+}
+
+.fireworks {
+    color: black;
+    animation-name: fireworks;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.width100 {
+    width: 100px;
+}
+
+.pl10 {
+    padding-left: 10px;
+    margin-top: 3px;
+}
+
+.pr10 {
+    padding-right: 10px;
+}
+
+.userImage {
+    height: 50px;
+    width: 50px;
+}
+
+.bigger {
+    height: 200px;
+    width: 200px;
+}
+
+.userName {
+    font-size: 30px;
+}
+
+.hiddenTodoHolder {
+    display: none;
+}
+
+.targetStyle {
+    font-size: 20px;
+}
+
+.projectHolder {
+    width: 40% !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .sideNav {
+        display: none;
+    }
+
+    .sideNav:hover {
+        position: fixed;
+        width: 70px;
+        padding-top: 10px;
+        height: 100%;
+        padding-left: 13px;
+        transition: 100ms;
+        z-index: 10;
+    }
+
+    main {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .smallSelect {
+        max-width: 100px !important;
+    }
+
+    #alertIcon {
+        top: 0px;
+    }
+
+    #userIcon {
+        top: 0px;
+    }
+
+    .actionButton .card .card-content {
+        height: 120px;
+    }
+}
+
+.preloader {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    z-index: 9999;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.cursor {
+    cursor: pointer;
+}
